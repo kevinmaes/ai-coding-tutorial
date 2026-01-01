@@ -36,7 +36,11 @@ Provide a concise learning summary:
 **Patterns used:** [List any named patterns, e.g., Factory, Observer, Guard Clause]
 **Key decisions:**
 - [Decision]: [Why]
-**Explore next:** [One suggestion for deeper learning]
+```
+
+End with an interactive prompt inviting continued learning:
+```
+**Want to go deeper?** I can explain [specific related concept] or show you [practical application]. Just say the word.
 ```
 
 Keep the recap brief - 5-8 lines max. The goal is reinforcement, not repetition.

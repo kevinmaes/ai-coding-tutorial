@@ -64,7 +64,8 @@ I used `.find()` here instead of `.filter()[0]` because we only need one result 
 **Key decisions:**
 - Used `find()` over `filter()[0]`: Clearer intent, stops at first match
 - Used `findIndex()` + splice for delete: Maintains original array reference if needed elsewhere
-**Explore next:** Look into `Array.prototype.reduce()` for aggregation operations
+
+**Want to go deeper?** I can explain how `reduce()` handles more complex transformations, or show you how to chain these methods together. Just say the word.
 
 ---
 
