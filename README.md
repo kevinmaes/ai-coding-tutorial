@@ -4,17 +4,33 @@ A `/teach` command for Claude Code that wraps any task with educational context,
 
 ## Installation
 
-### Quick Install (curl)
+| Method | Scope | Description |
+|--------|-------|-------------|
+| [One-liner](#global-install) | Global | Install for all projects |
+| [Clone + install](#from-cloned-repo) | Global | Clone repo first, then install |
+| [Project-only](#project-only-install) | Single project | Add to current project only |
+
+### Global install
 
 ```bash
-mkdir -p .claude/commands
-curl -o .claude/commands/teach.md https://raw.githubusercontent.com/kevinmaes/ai-coding-tutorial/main/.claude/commands/teach.md
+curl -fsSL https://raw.githubusercontent.com/kevinmaes/ai-coding-tutorial/main/install.sh | bash
 ```
 
-### Manual Install
+### From cloned repo
 
-1. Copy `.claude/commands/teach.md` from this repo
-2. Place it in your project's `.claude/commands/` directory
+```bash
+git clone https://github.com/kevinmaes/ai-coding-tutorial.git
+```
+
+```bash
+cd ai-coding-tutorial && ./install.sh
+```
+
+### Project-only install
+
+```bash
+mkdir -p .claude/commands && curl -fsSL https://raw.githubusercontent.com/kevinmaes/ai-coding-tutorial/main/.claude/commands/teach.md -o .claude/commands/teach.md
+```
 
 ## Usage
 
